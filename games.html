@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- foods.html  Example food page displaying food data. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="games.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="games.js" defer></script>
+    <title>Game Data</title>
+</head>
+<body>
+  <h1>Games</h1>
+  <!-- Use this div as a container for nav and main. -->
+  <div class="navleft">
+    <nav>
+      <!-- Start with nothing here,
+           a list of food names will be created -->
+    </nav>
+    <main>
+    <!-- Add these buttons for editing later.
+       <button type="button" id="editbutton">Edit</button>
+       <button type="button" id="addbutton">Add</button>
+    -->
+       <p>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" value="None" readonly>
+       </p>
+       <p>
+         <label for="players">Players:</label>
+         <input type="text" class="digits" id="players" name="players" value="0" readonly>
+         <span id="units"></span>
+       </p>
+       <p>
+         <label for="studio">Studio:</label>
+         <input type="text" class="digits" id="studio" name="studio" value="0" readonly>
+       </p>
+       <p>
+         <label for="date">Date:</label>
+         <input type="text" class="digits" id="date" name="date" value="0" readonly>
+       </p>
+    </main>
+  </div>
+</body>
+</html>

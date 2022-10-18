@@ -1,0 +1,38 @@
+/*
+ * foods.css
+ *
+ * Ugly, but functional for seeing what's going on.
+ */
+
+.navleft {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    background: lightsteelblue;
+    flex: 0 1 30%
+
+}
+
+main {
+    background: lightgreen;
+    flex: 0 1 70%;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+label {
+    display: inline-block;
+    /*float: left;*/
+    width: 100px;
+    text-align: center;
+}
+
+input.digits {
+    width: 3em;
+    text-align: center;
+}
